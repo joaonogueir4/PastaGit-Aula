@@ -1,0 +1,70 @@
+02/04
+
+operadores de identidade
+is 
+is not
+
+"nome is 'marcos'" devolve *true* se as variaveis correspondem ao mesmo objeto
+
+is not devolve *true* se as variaveis NÃO correspondem ao mesmo objeto
+
+
+exercicios
+
+x1=  "botafogo"
+x2= "flamengo"
+x3= "botafogo"
+
+Xresult = x1 is x3 ***true
+Xresult = x1 is not x2 ***true
+Xresult = x1 is x3 ***true
+Xresult = x2 is not x3 ***true
+
+in -retorna true se o objeto esta em tal variavel
+in not -retorna true se o objeto NÃO esta em tal variavelç nn encontrado na sequencia
+
+exercicios
+frutas ("BANANA","LARANJA", "UVA", "AMEIXA")
+x= "banana"
+x2= "laranja
+x3= "abacaxi"
+
+Xresult = x in frutas # True
+Xresult = x not in frutas #False
+Xresult = x2 not in frutas #False
+Xresult = x3 in frutas #False
+
+
+Operadores condicionais
+
+que depende 
+
+estrutura sequencial 
+cada comando é executado somento apos o termino do comando anterior; que segue uma sequencia
+ex  
+   - -------------
+   - (leia a    )-
+   - (y = a *a  )-
+   - (escreva a )-
+   -------------
+
+
+estrutura de decisão
+
+se // if
+então
+senão // else
+elif se senão
+
+** PRINT = MOSTRAR NA TELA 
+
+
+
+
+
+
+
+
+
+
+

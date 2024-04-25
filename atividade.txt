@@ -1,0 +1,138 @@
+1.
+a=int (input ("Digite um número "))
+b= 0
+if a > b :print ("este número é positivo")
+elif  a == b :print ("O número zero não é válido, digite outro número ")
+else :print ("este número é negativo")
+
+
+2.
+a= (input ("Digite M para masculino ou F para feminino "))
+
+if a=="M"or a=="m":
+  print("você é homem")
+else :print("você é Mulher")
+
+t= (input ("Digite uma letra "))
+if t=="a" or  t=="A" or t=="e" or t=="E" or t=="I" or t=="i" or t=="o" or t=="O" or t=="u" or t=="U":
+  print("Você selecionou uma VOGAL!!! ")
+else :print ("voce selecionou uma consoante")
+
+3.
+parcial1=float((input ("Digite a nota da primeira parcial ")))
+parcial2= float((input ("Digite a nota da segunda parcial ")))
+media = (parcial1+parcial2)/2
+if media == 10:
+ print("aprovada com distincao")
+elif media >=7:
+  print("aprovada")
+else:
+  print("reprovada")
+
+4.
+x1=(input("digite um numero"))
+x2=(input("Digite outro numero"))
+x3=(input("Digite novamente um numero"))
+if x1>x2 and x1>x3:
+  print(x1)
+elif x2>x1 and x2>x3:
+  print(x2)
+else:
+    print(x3)
+
+5.
+a=(input("Digite um número"))
+b=(input("Digite outro número"))
+c=(input("Digite outre número"))
+if a>b and a>c:
+  print("a é o maior número")
+elif b>a and b>c:
+  print("b é o maior número")
+else:
+    print("c é o maior número")
+if a<b and a<c:
+  print("a é o menor número")
+elif b<a and b<c:
+    print( "b é o menor número")
+else:
+  print("c é o menor número")
+
+
+6.
+a=input("Digite o valor do produto um ")
+b=input("Digite o valor do produto dois ")
+c=(input("Digite o valor do produto tres "))
+if a<b and a<c:
+  print("o primeiro produto é o mais barato")
+elif b<a and b<c:
+  print("o segundo produto é o mais barato")
+else:
+  print("o terceiro produto é o mais barato")
+
+7.
+a = float(input("Digite o primeiro número: "))
+b = float(input("Digite o segundo número: "))
+c = float(input("Digite o terceiro número: "))
+
+if a >= b >= c:
+    print("Em ordem decrescente:", a, b, c)
+elif a >= c >= b:
+    print("Em ordem decrescente:", a, c, b)
+elif b >= a >= c:
+    print("Em ordem decrescente:", b, a, c)
+elif b >= c >= a:
+    print("Em ordem decrescente:", b, c, a)
+elif c >= a >= b:
+    print("Em ordem decrescente:", c, a, b)
+else:
+    print("Em ordem decrescente:", c, b, a)
+
+
+
+
+8.
+turno = input("Em qual turno você estuda? Digite M para matutino, V para vespertino ou N para noturno: ")
+
+if turno == 'M' or turno == 'm':
+    print("Bom dia!")
+elif turno == 'V' or turno == 'v':
+    print("Boa tarde!")
+elif turno == 'N' or turno == 'n':
+    print("Boa noite!")
+else:
+    print("Valor inválido!")
+  
+
+9.
+num1 = float(input("Digite o primeiro número: "))
+
+num2 = float(input("Digite o segundo número: "))
+
+if num1 > num2:
+    print("O maior número é:", num1)
+    print("O menor número é:", num2)
+elif num2 >= num1:
+    print("O maior número é:", num2)
+    print("O menor número é:", num1)
+
+10.
+numero = int(input("Digite um número de 1 a 7: "))
+
+if numero == 1:
+    print("Domingo")
+elif numero == 2:
+    print("Segunda-feira")
+elif numero == 3:
+    print("Terça-feira")
+elif numero == 4:
+    print("Quarta-feira")
+elif numero == 5:
+    print("Quinta-feira")
+elif numero == 6:
+    print("Sexta-feira")
+elif numero == 7:
+    print("Sábado")
+else:
+    print("Valor inválido")
+
+

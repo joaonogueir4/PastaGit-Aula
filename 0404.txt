@@ -1,0 +1,62 @@
+%% [code]
+a=int (input ("Digite um número "))
+b= 0
+if a > b :print ("este número é positivo")
+elif  a == b :print ("O número zero não é válido, digite outro número ")
+else :print ("este número é negativo")
+Saída da execução a partir de 3 de abr. de 2024 16:18
+0KB
+	Stream
+		Digite um número 1
+		este número é positivo
+
+Célula de código <zkpTimgMY_6_>
+# %% [code]
+from re import M
+
+a= (input ("Digite M para masculino ou F para feminino "))
+
+if a=="M"or a=="m":
+  print("você é homem")
+else :print("você é Mulher")
+
+
+Saída da execução a partir de 4 de abr. de 2024 14:22
+0KB
+	Stream
+		Digite M para masculino ou F para feminino f
+		você é Mulher
+
+Célula de código <oNFWEq6JKNtR>
+# %% [code]
+t= (input ("Digite uma letra "))
+if t=="a" or  t=="A" or t=="e" or t=="E" or t=="I" or t=="i" or t=="o" or t=="O" or t=="u" or t=="U":
+  print("Você selecionou uma VOGAL!!! ")
+else :print ("voce selecionou uma consoante")
+Saída da execução a partir de 4 de abr. de 2024 14:41
+0KB
+	Stream
+		Digite uma letra T
+		voce selecionou uma consoante
+
+Célula de código <JG5KRLVAE8fp>
+# %% [code]
+parcial1=float((input ("Digite a nota da primeira parcial ")))
+parcial2= float((input ("Digite a nota da segunda parcial ")))
+media = (parcial1+parcial2)/2
+if media == 10:
+ print("aprovada com distincao")
+elif media >=7:
+  print("aprovada")
+else:
+  print("reprovada")
+
+x1=(input("digite um numero"))
+x2=(input("Digite outro numero"))
+x3=(input("Digite novamente um numero"))
+if x1>x2 and x1>x3:
+  print(x1)
+if x2>x1 and x2>x3:
+  print(x2)
+if x3>x1 and x3>x2:
+    print(x3)

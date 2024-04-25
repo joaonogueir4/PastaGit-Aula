@@ -1,0 +1,36 @@
+1º Faça um programa que peça a data de nascimento ex* 00/00/0000 e mostre a idade atual do usuario:
+
+dia = int(input("digite o dia do seu nascimento"))
+mes = int(input("digite o mes do seu nascimento"))
+ano = int(input("digite o ano do seu nascimento"))
+
+anoatual =2024
+mesatual = 04
+diaatual = 23
+y = anoatual - ano
+h =(y) - 1
+if mesatual >= mes:
+  print(y)
+elif mesatual <= mes:
+ print(h)
+elif diaatual == dia and mesatual == mes:
+ print(y)
+elif diaatual > dia and mesatual > mes:
+  print(h)
+
+  
+
+
+
+2º Faça um programa que peça o nome de duas frutas e o seus preços
+e mostre o resultado da soma entre elas e o resultado com 30% de desconto aplicado
+
+fruta1 = float(input("Escreva o nome da fruta desejada"))
+valor1 = float(input(f"escreva o valor da" {fruta1} )
+fruta2 = float(input("Escreva o nome da segunda fruta desejada"))
+valor2 = float(input(f"escreva o valor da" {fruta2} )
+ print((valor1) + (valor2) "é o valor da soma das frutas")) and 
+
+
+3º Faça um programa que peça um número até 50 e mostre a metade dele e o dobro dele 
+

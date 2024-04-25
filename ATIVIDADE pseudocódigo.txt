@@ -1,0 +1,45 @@
+=15 ou + escreva e leia
+3 tomadas de decisão se se não
+
+pseudocodigo 
+
+Acesso Cadastro
+ portal aluno 
+
+var  nome de usuario: caracteres
+     senha: inteiro
+      nome :caracters
+      serie :inteiro
+      nota1, nota2 :real
+      frequencia :inteiro
+      cpf: inteiro
+ 
+
+     INICIO 
+        (
+escreva ("     Login                "  )
+escreva ("digite seu nome de usuario"  )
+escreva ("         SENHA              ")
+escreva ("DIGITE SUA SENHA ex:123456"  )
+escreva ("Confirmar"                   )
+leia (nomedeusuario + senha)
+se nome usuario == falso e senha ==falso
+escreva ("Senha ou usuário incorretos, tente novamente")
+se nome usuario== verdadeiro e senha== verdadeiro
+
+redirecionar pagina >>>>>>>>>>>>>>>>>
+
+escreva ("BEM-VINDO AO PORTAL DO ALUNO +Nome do aluno")
+escreva ("MENU PRINCIPAL   "  )
+escreva ("frequencia em aulas")
+leia ("frequencia em aulas")
+escreva ("notas semestrais  ")
+se "notas semestrais"
+leia nota1
+escreva nota1
+se  "frequencia em aulas"
+leia ("frequencia em aulas")
+escreva var("frequencia")
+
+
+
